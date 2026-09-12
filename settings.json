@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "zeno5040.aternos.me",
-    "port": 51262,
+    "port":51262,
     "version": "",
     "try-creative": false
   },
