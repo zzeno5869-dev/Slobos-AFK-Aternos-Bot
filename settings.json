@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "zeno5040.aternos.me",
-    "port":51262,
+    "ip": "zeno-6smE.aternos.me",
+    "port":45137,
     "version": "",
     "try-creative": false
   },
