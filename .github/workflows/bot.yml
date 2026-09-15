@@ -1,0 +1,24 @@
+name: Aternos AFK Bot 24/7
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/45 * * * *'
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Код татах
+        uses: actions/checkout@v4
+
+      - name: Node.js суулгах
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Mineflayer суулгах
+        run: npm install
+
+      - name: Бот асаах
+        run: node index.js
